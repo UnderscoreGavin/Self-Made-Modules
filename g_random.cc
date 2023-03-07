@@ -28,7 +28,7 @@ int bRand(int MAX, int MIN = 0)
 
     return randInt;
 }
-int main(int argc, char** argv)
+int main(int argc, const char** argv)
 {
     std::cout << bRand(100, 10) << std::endl;
     return 0;
